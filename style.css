@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+html,body{
+    background:gainsboro;
+    background:url("image/16.jpg")
+}
+.navbox {
+    background: rgba(0, 0, 0,0.5);
+    overflow: hidden;
+}
+
+.navbox div {
+    float: right;
+    font-size: 0;   
+}
+.navbox a {
+    padding: 0 12px;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 32px;
+    color: white;
+    text-decoration: underline;   
+}
+.oo img{
+    display: block;
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin-left: 160px;
+}
+.serachbox{
+    margin: 25px auto;
+    width:900px;
+   margin-left: 200px;
+}
+
+.serachbox div{
+    margin-top: 15px;
+    font-size: 0;
+}
+.serachbox input{
+    width: 450px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    border: 1px solid #EEE;
+    background: rgba(255,255,255,0.8);
+    font-size: 14px;
+    vertical-align: top;
+   
+}
+.serachbox a{
+  margin-right: 5px;
+    display:inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+.serachbox a:hover{
+    background: #317EF3;
+}
+.navbox a.line {
+    text-decoration: none;
+    color:rgba(219, 57, 57, );
+}   
+.abc{
+    margin: 0 auto;
+    padding: 0 10px;
+    width:1000px;
+    background:rgba(255,255,255,0.5);
+   
+}
+.aaa {
+    
+    border-bottom: 1px dashed rgb(8, 8, 8);
+
+}
+.aaa h1{
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    color:rgb(114, 6, 6);
+}
+.aaa h2{
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: normal; 
+    color:rgb(156, 10, 59);
+}
+.xxx{
+    overflow: hidden;
+}
+.xxx p{
+    text-indent: 2em;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    overflow: hidden;
+
+}
+.xxx figure img{
+    margin-top: 10px;
+    float: left;
+    margin-right: 8px;
+}
+.zz{
+    font-size: 14px;
+    color: rgb(12, 9, 9, );
+    font-style: italic;
+
+}
+.xxx h4{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px dashed #999;
+}
+.cc{
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+}
+.cc img{
+    width: 100%;
+}
+.tt ul li{
+    font-size: 20px;
+}
+
+.nn ul li{
+    font-size: 20px;
+}
+
+.bb{
+    font-size: 22px;
+    color:rgb(161, 40, 40);
+    text-align: center;
+}
+
+.imagelistbox{
+    width: 840px;
+    height: 150px;
+    padding: 0 10px 10px 0;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.3)
+}
+.imagelistbox ul{
+    overflow: hidden;
+}
+.imagelistbox ul li{
+    width: 200px;
+    height: 150px;
+    margin: 10px 0 0 10px;
+    float: left;
+    position: relative;
+}
+.imagelistbox ul li img{
+    width:200px;
+    height: 100%;
+}
+.imagelistbox ul li span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 200px;
+    height: 34px;
+    line-height: 34px;
+    text-indent: 2em;
+    font-size: 15px;
+    color: #FFF;
+    background: rgba(0,0,0,0.5);
+}
+.imagelistbox ul li{
+    overflow: hidden;
+}
+.imagelistbox ul li img{
+    transition: 0.5s;
+}
+.imagelistbox ul li:hover img{
+    transform: scale(1.5)
+}
